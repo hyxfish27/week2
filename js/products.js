@@ -145,7 +145,7 @@ const app = {
                                 })
                                     // 跳轉頁面
                                     .then(res => {
-                                        window.location = "./week2";
+                                        window.location = "./";
                                     })
                             })
                             .catch(err => {
