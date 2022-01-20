@@ -175,13 +175,12 @@ const app = {
                         title: err.data.message,
                         text: "將為您重新導至登入頁",
                         icon: 'error',
-                        confirmButtonText: '好的'
+                        showConfirmButton: false,
+                        timer: 1500
                     })
                         // 移至登入頁面
                         .then((res) => {
-                            if (res.isConfirmed) {
-                                window.location.href = "/";
-                            }
+                            window.location.href = "/";
                         })
                         .then((res => {
                             Swal.fire({
