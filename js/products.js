@@ -64,9 +64,12 @@ const app = {
                     // 取得產品失敗訊息
                     Swal.fire({
                         title: err.data.message,
-                        text: err.data.error.code,
+                        text: "取得產品失敗，請重新登入",
                         icon: 'error',
                         confirmButtonText: 'OK'
+                    })
+                    .then((res)=>{
+                        window.location = "index.html"
                     })
                 })
         },
