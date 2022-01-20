@@ -33,7 +33,7 @@ const app = {
             if (res.isConfirmed) {
               window.location = "products.html";
             } else {
-              window.location.href = "/";
+              window.location.href = "index.html";
             }
           }).catch((err) => {
             console.dir(err)
