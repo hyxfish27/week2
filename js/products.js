@@ -145,7 +145,7 @@ const app = {
                                 })
                                     // 跳轉頁面
                                     .then(res => {
-                                        window.location = "#";
+                                        window.location = "./index.html";
                                     })
                             })
                             .catch(err => {
