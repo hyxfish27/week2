@@ -145,7 +145,7 @@ const app = {
                                 })
                                     // 跳轉頁面
                                     .then(res => {
-                                        window.location.href = "index.html";
+                                        window.location = "index.html";
                                     })
                             })
                             .catch(err => {
@@ -180,7 +180,7 @@ const app = {
                     })
                         // 移至登入頁面
                         .then((res) => {
-                            window.location.href = "index.html";
+                            window.location = "index.html";
                         })
                         .then((res => {
                             Swal.fire({
