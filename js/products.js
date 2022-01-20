@@ -145,7 +145,7 @@ const app = {
                                 })
                                     // 跳轉頁面
                                     .then(res => {
-                                        window.location.href = "/";
+                                        window.location.href = "/week2";
                                     })
                             })
                             .catch(err => {
@@ -180,7 +180,7 @@ const app = {
                         // 移至登入頁面
                         .then((res) => {
                             if (res.isConfirmed) {
-                                window.location = "../index.html";
+                                window.location = "window.location.href = "/week2";
                             }
                         })
                         .then((res => {
